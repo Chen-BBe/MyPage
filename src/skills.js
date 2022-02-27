@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
 	base_skill: {
 		marginTop: '3vh',
 		marginBottom: '3vh',
-		backgroundColor: '#F2F2F2',
+		backgroundColor: '#fafafa',
 	},
 	text_title: {
 		margin: theme.spacing(1),
@@ -44,7 +44,7 @@ export default function Skills() {
 		<Card className={classes.base_skill}>
 			<div className={classes.text_title}>
 	            <Typography className={classes.bg_title} gutterBottom variant="h5">
-					<strong>SKILLS</strong>
+					<strong style={{ color: "grey" }}>SKILLS</strong>
 	            </Typography>			
 			</div>
 

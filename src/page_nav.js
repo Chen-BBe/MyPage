@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, useTheme} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Top from './top.js';
 import Skills from './skills.js';
 import Work from './work.js';
@@ -26,8 +26,11 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
-    alignContent: 'center', 
-    width: '65%',
+    alignContent: 'center',
+    width: '100%',
+    [theme.breakpoints.up('md')]: {
+      width: '65%',
+    },
   },
   menu_button: {
     [theme.breakpoints.up('md')]: {
@@ -47,7 +50,6 @@ const useStyles = makeStyles(theme => ({
       display: 'none',
     },
   },
-
   drawerPaper: {
     backgroundColor: '#87A4FF',
     width: drawerWidth
@@ -67,25 +69,25 @@ const useStyles = makeStyles(theme => ({
 
 export default function HeadBar() {
   const classes = useStyles();
-  const theme = useTheme();
-  const [value, setValue] = React.useState();
+  const [value, setValue] = React.useState(0);
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const list = [
-    {'id': '0', 'template': <Top />},
-    {'id': '1', 'template': <Skills />},
-    {'id': '2', 'template': <Work />},
-    {'id': '3', 'template': <Projects />},
-    {'id': '4', 'template': <Education />},
+    {'id': 0, 'template': <Top />},
+    {'id': 1, 'template': <Skills />},
+    {'id': 2, 'template': <Work />},
+    {'id': 3, 'template': <Projects />},
+    {'id': 4, 'template': <Education />},
   ];
-  const refs = list.reduce((acc, value) => {
-    acc[value.id] = React.createRef();
+
+  const refs = list.reduce((acc, new_value) => {
+    acc[new_value.id] = React.createRef();
     return acc;
   }, {});
 
-  const handleChange = (event, index) => {
-    setValue(index);
-    refs[index].current.scrollIntoView({
+  const handleChange = (event, new_value) => {
+    setValue(new_value);
+    refs[new_value].current.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
     });
@@ -97,12 +99,12 @@ export default function HeadBar() {
 
   const drawer = (
     <Tabs
-    orientation="vertical"
-    value={value}
-    onChange={handleChange}
-    indicatorColor="secondary"
-    textColor="secondary"
-    centered
+      orientation="vertical"
+      value={value}
+      onChange={handleChange}
+      indicatorColor="secondary"
+      textColor="secondary"
+      centered
     >
       <Tab label="Top" />
       <Tab label="Skills" />
@@ -120,20 +122,17 @@ export default function HeadBar() {
           <MenuIcon/>
         </IconButton>
 
-
         <div>
           <Hidden smUp implementation="css">
             <Drawer
-            variant="temporary"
-            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            ModalProps={{
-              keepMounted: true,
-            }}
+              open={mobileOpen}
+              onClose={handleDrawerToggle}
+              classes={{
+                paper: classes.drawerPaper,
+              }}
+              ModalProps={{
+                keepMounted: true,
+              }}
             >
               <IconButton onClick={handleDrawerToggle} className={classes.closeMenuButton}>
                 <CloseIcon/>
@@ -143,15 +142,13 @@ export default function HeadBar() {
           </Hidden>
         </div>
 
-
-
         <Tabs
-        value={value}
-        onChange={handleChange}
-        indicatorColor="primary"
-        textColor="primary"
-        className={classes.nav_bar}
-        centered
+          value={value}
+          onChange={handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          className={classes.nav_bar}
+          centered
         >
           <Tab label="Top" />
           <Tab label="Skills" />

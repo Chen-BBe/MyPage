@@ -11,19 +11,18 @@ const useStyles = makeStyles((theme) => ({
 	base_education: {
 		marginTop: '2vh',
 		marginBottom: '2vh',
-		backgroundColor: '#F2F2F2',
+		backgroundColor: '#fafafa',
 		display: 'flex',
 		flexDirection: 'column',
 		flexWrap: 'nowrap',
 	},
 	text_title: {
-		margin: theme.spacing(1.5),
+		margin: theme.spacing(1),
 		display: 'flex',
 		flexDirection: 'column',
 		flexWrap: 'nowrap',
 	},
 	bg_title: {
-		backgroundColor: theme.palette.background.paper,
 		padding: theme.spacing(2),
 	},
 	edu_layout: {
@@ -52,10 +51,7 @@ const useStyles = makeStyles((theme) => ({
 		backgroundColor: '#292929',
 	},
 	edu_info: {
-		width: '80vh',
-	    [theme.breakpoints.down('md')]: {
-      		width: '100%',
-	    },
+		width: '100%'
 	},
 }));
 
@@ -64,16 +60,16 @@ export default function Education() {
 
 	const edu_list = [
 		{
-			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/Curtin.png', 
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/curtin.png', 
 			'title': 'Cutin University',
       'url': 'https://www.curtin.edu.au/',
 			'role': 'Bachelor of Science, Software Engineering', 
 			'date': 'August 2014 to December 2018',
 		},
 		{
-			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/XiangTan.png', 
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/xiangtan.png', 
 			'title': 'XiangTan University', 
-      'url': 'https://www.xtu.edu.cn/',
+			'url': 'https://www.xtu.edu.cn/',
 			'role': 'Bachelor of Arts, History', 
 			'date': 'August 2008 to December 2011', 
 		},
@@ -82,13 +78,13 @@ export default function Education() {
 	return (
 		<Card className={classes.base_education}>
 			<div className={classes.text_title}>
-	            <Typography className={classes.bg_title} gutterBottom variant="h5">
-					<strong>EDUCATION</strong>
-	            </Typography>			
+        <Typography className={classes.bg_title} gutterBottom variant="h5">
+					<strong style={{ color: "grey" }}>EDUCATION</strong>
+        </Typography>			
 			</div>
 			<div className={classes.edu_layout}>
-				{edu_list.map(item => (
-					<div className={classes.edu_content}>
+				{edu_list.map((item, index) => (
+					<div key={index} className={classes.edu_content}>
 						<Paper className={classes.edu_content_left} elevation={3}>
 							<div className={classes.logo_content}>
 							  <a href={item.url}>
