@@ -103,8 +103,8 @@ export default function Projects() {
 	            </Typography>			
 			</div>
 			<div className={classes.work_layout}>
-				{work_list.map(item => (
-					<div className={classes.work_content}>
+				{work_list.map((item, index) => (
+					<div key={index} className={classes.work_content}>
 						<Paper className={classes.work_content_left} elevation={3}>
 							<div className={classes.logo_content}>
 								<a href={item.url}>
@@ -126,8 +126,8 @@ export default function Projects() {
 			            <div className={classes.job_details}>
 				            <Typography gutterBottom variant="body1">
 								<ul>
-								{item.description.map(sub_item => (
-									<li className={classes.job_details_li}>
+								{item.description.map((sub_item, sub_index) => (
+									<li key={sub_index} className={classes.job_details_li}>
 										{sub_item}
 									</li>
 								))}

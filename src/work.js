@@ -84,7 +84,7 @@ export default function Work() {
 			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/atomorphis.jpg', 
 			'title': 'Atomorphis', 'role': 'Software Developer', 
 			'date': 'Nov 2020 to Present', 
-			'description': ['UI/UX implementing', 'Developing new minging modeling system supports different devices', 'Help and maintain workflow current IT services']
+			'description': ['UI/UX implementing', 'Interactive geological map and data visualization', 'Design and help in data visualization in 2D & 3D', 'Dockerize front-end sytem']
 		},	
 		{
 			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/A.jpg', 
@@ -92,13 +92,6 @@ export default function Work() {
 			'date': 'February 2020 to June 2020', 
 			'description': ['Website development & maintain', 'Marketing email system development', 'UI design']
 		},
-		{
-			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/B.png', 
-			'title': 'EEA', 
-			'role': 'Intern Software Engineer', 
-			'date': 'July 2019 to October 2019', 
-			'description': ['Full stack development', 'API design']
-		}//,
 		// {
 		// 	'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/C.bmp', 
 		// 	'title': 'PinYi', 
@@ -116,8 +109,8 @@ export default function Work() {
 	            </Typography>			
 			</div>
 			<div className={classes.work_layout}>
-				{work_list.map(item => (
-					<div className={classes.work_content}>
+				{work_list.map((item, index) => (
+					<div key={index} className={classes.work_content}>
 						<Paper className={classes.work_content_left} elevation={3}>
 							<div className={classes.logo_content}>
 								<img src={item.img} alt="" width="150" height="150" />
@@ -140,8 +133,8 @@ export default function Work() {
 			            <div className={classes.job_details}>
 				            <Typography gutterBottom variant="body1">
 								<ul>
-								{item.description.map(sub_item => (
-									<li className={classes.job_details_li}>
+								{item.description.map((sub_item, sub_index) => (
+									<li key={sub_index} className={classes.job_details_li}>
 										{sub_item}
 									</li>
 								))}

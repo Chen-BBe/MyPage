@@ -65,13 +65,15 @@ export default function Education() {
 	const edu_list = [
 		{
 			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/Curtin.png', 
-			'title': 'Cutin University', 
+			'title': 'Cutin University',
+      'url': 'https://www.curtin.edu.au/',
 			'role': 'Bachelor of Science, Software Engineering', 
 			'date': 'August 2014 to December 2018',
 		},
 		{
 			'img': 'https://raw.githubusercontent.com/Seven-Bi/MyPage/master/src/static/img/XiangTan.png', 
 			'title': 'XiangTan University', 
+      'url': 'https://www.xtu.edu.cn/',
 			'role': 'Bachelor of Arts, History', 
 			'date': 'August 2008 to December 2011', 
 		},
@@ -89,23 +91,34 @@ export default function Education() {
 					<div className={classes.edu_content}>
 						<Paper className={classes.edu_content_left} elevation={3}>
 							<div className={classes.logo_content}>
-								<img src={item.img} alt="" width="150" height="150" />
+							  <a href={item.url}>
+									<img src={item.img} alt="" width="150" height="150" />
+								</a>
 							</div>
 						</Paper>
-				
-						<div>
-							<div className={classes.edu_info}>
-					            <Typography gutterBottom variant="h6">
-									<strong>{item.title}</strong>
-					            </Typography>
-					            <Typography gutterBottom variant="subtitle2">
-									{item.role}
-					            </Typography>
-					            <Typography gutterBottom variant="subtitle2">
-									{item.date}
-					            </Typography>
-				            </div>
-			            </div>
+
+            <div className={classes.edu_info}>
+              <div style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-evenly'       
+              }}>
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                }}>
+                  <Typography gutterBottom variant="h6">
+                    <strong>{item.title}</strong>
+                  </Typography>
+                  <Typography gutterBottom variant="subtitle2">
+                    {item.role}
+                  </Typography>
+                  <Typography gutterBottom variant="subtitle2">
+                    {item.date}
+                  </Typography>
+                </div>
+              </div>
+            </div>
 					</div>	
 				))}
 			</div>

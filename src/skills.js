@@ -50,14 +50,13 @@ export default function Skills() {
 
 			<div className={classes.text_content}>
 				<Chip className={classes.content_item} label="HTML & CSS & JS" />
+				<Chip className={classes.content_item} label="Python & Node & Java" />
 				<Chip className={classes.content_item} label="React" />
-				<Chip className={classes.content_item} label="Python & Java" />
-				<Chip className={classes.content_item} label="OOPD" />
 				<Chip className={classes.content_item} label="Django" />
 				<Chip className={classes.content_item} label="Restful API Design" />
 				<Chip className={classes.content_item} label="Git & Docker" />
 				<Chip className={classes.content_item} label="SQL" />
-				<Chip className={classes.content_item} label="Web Crawler" />
+				<Chip className={classes.content_item} label="WebGL" />
 			</div>
 		</Card>
 	);

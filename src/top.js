@@ -53,7 +53,7 @@ export default function Top() {
             
 			<div className={classes.text_content}>
 	            <Typography gutterBottom variant="h8">
-					SOFTWARE ENGINEER / FULL-STACK DEVELOPER
+					FULL-STACK DEVELOPER
 	            </Typography>			
 			</div>
 
@@ -67,7 +67,7 @@ export default function Top() {
 					</div>
 					<div className={classes.personal_info}>
 						<strong>Github:</strong>
-						<a title="Github" href="https://github.com/Seven-Bi">github.com/Seven-Bi</a>
+						<a title="Github" href="https://github.com/Chen-BBe/">github.com/Chen-BBe</a>
 					</div>
 					<div className={classes.personal_info}>
 						<strong>Mobile:</strong>
@@ -84,8 +84,9 @@ export default function Top() {
 
 			<div className={classes.text_content}>
 	            <Typography gutterBottom variant="body2">
-					Qualified software engineer with web programming experiences in coding Python or core Java, passionate about web app development with Django ecosystem and React frameworks.
-					Familiar with Docker, SQL, Git and knowledge of AWS & GCP.
+				Qualified software engineer, experiences in coding Js, Python and core Java, passionate about web app 
+				development with React/Django ecosystem, good on web based data visualization and API development. 
+				Familiar with Docker, Git dev environment as well as knowledge of deploy to AWS/GCP.
 	            </Typography>		
 			</div>
 		</Card>

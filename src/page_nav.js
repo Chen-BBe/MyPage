@@ -162,7 +162,7 @@ export default function HeadBar() {
       </Paper>
 
       <Paper className={classes.paper} elevation={0}>
-        {list.map(item => (
+        {list.map((item) => (
           <Paper key={item.id} ref={refs[item.id]} elevation={0} className={classes.img_item}>
             {item.template}
           </Paper>
