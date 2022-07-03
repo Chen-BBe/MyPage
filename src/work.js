@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	logo_content: {
 		margin: '0.5vh',
-		backgroundColor: '#292929',
+		backgroundColor: 'white',
 	},
 	job_title: {
 		display: 'flex',
@@ -74,6 +74,13 @@ export default function Work() {
 	const classes = useStyles();
 	
 	const work_list = [
+		{
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pointerra.png',
+			'url': 'https://www.pointerra.com/',
+			'title': 'Pointerra', 'role': 'Full Stack Developer', 
+			'date': 'June 2022 to Present', 
+			'description': ['SaaS applications development', 'Improving the automated software build and test platform', 'Viewer & Portal maintain']
+		},		
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/atomorphis.jpg',
 			'url': 'https://www.atomorphis.com/',
