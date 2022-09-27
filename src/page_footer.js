@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-const resume_url = "https://github.com/Chen-BBe/my-page-assets/raw/main/resume/Steven-Bi.pdf";
+const resume_url = "https://github.com/Chen-BBe/my-page-assets/raw/main/Steven-Bi.pdf";
 
 
 export default function FootBar() {

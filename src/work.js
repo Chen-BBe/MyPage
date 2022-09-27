@@ -85,7 +85,7 @@ export default function Work() {
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/atomorphis.jpg',
 			'url': 'https://www.atomorphis.com/',
 			'title': 'Atomorphis', 'role': 'Software Developer', 
-			'date': 'Nov 2020 to Present', 
+			'date': 'Nov 2020 to April 2022', 
 			'description': ['UI/UX implementing', 'Interactive geological map and data visualization', 'Design and help in data visualization in 2D & 3D', 'Dockerize front-end sytem']
 		},	
 		{
@@ -102,13 +102,13 @@ export default function Work() {
 			'date': 'Mar 2019 to Oct 2019', 
 			'description': ['Maintain current web app', 'Develop new features and design test cases']
 		},		
-		{
-			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pinyi.bmp',
-			'url': 'http://www.shpy.com',
-			'title': 'PinYi', 'role': 'BI Developer (Shang Hai - China)', 
-			'date': 'Jun 2010 to Apr 2012', 
-			'description': ['6 months intership included', 'Offer consulting services for Bank of Communications', 'Data migrate & analysis & maintain for Bank of Communications']
-		},
+		// {
+		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pinyi.bmp',
+		// 	'url': 'http://www.shpy.com',
+		// 	'title': 'PinYi', 'role': 'BI Developer (Shang Hai - China)', 
+		// 	'date': 'Jun 2010 to Apr 2012', 
+		// 	'description': ['6 months intership included', 'Offer consulting services for Bank of Communications', 'Data migrate & analysis & maintain for Bank of Communications']
+		// },
 	];
 
 	return (
