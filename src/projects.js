@@ -45,7 +45,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	job_title: {
 		display: 'flex',
-		marginLeft: '10vh',
+		minWidth: "500px",
+		marginLeft: '4vh',
 		flexDirection: 'column',
 		alignItems: 'center',
 		justifyContent: 'center',
