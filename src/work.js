@@ -79,7 +79,7 @@ export default function Work() {
 			'url': 'https://www.pointerra.com/',
 			'title': 'Pointerra', 'role': 'Full Stack Developer', 
 			'date': 'June 2022 to Present', 
-			'description': ['SaaS applications development', 'Improving the automated software build and test platform', 'Viewer & Portal maintain']
+			'description': ['SaaS applications development', 'Improving the automated software build and test platform', 'Viewer, Portal & PointServer maintain(Vue/Django/Nodejs)']
 		},		
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/atomorphis.jpg',
@@ -91,7 +91,7 @@ export default function Work() {
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/hotel.jpg',
 			'url': 'https://www.bunburyhotelkoombanabay.com.au/',
-			'title': 'South Pacific', 'role': 'Web Developer', 
+			'title': 'South Pacific', 'role': 'Web Developer (contract)', 
 			'date': 'Feb 2020 to May 2020', 
 			'description': ['Restore website from the damaged backup', 'Restore online booking system', 'Web based mail marketing system']
 		},
@@ -150,7 +150,7 @@ export default function Work() {
 								<ul>
 								{item.description.map((sub_item, sub_index) => (
 									<li key={sub_index} className={classes.job_details_li}>
-										{sub_item}
+										<Typography gutterBottom variant="caption">{sub_item}</Typography>
 									</li>
 								))}
 								</ul>

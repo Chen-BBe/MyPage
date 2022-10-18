@@ -133,7 +133,7 @@ export default function Projects() {
 								<ul>
 								{item.description.map((sub_item, sub_index) => (
 									<li key={sub_index} className={classes.job_details_li}>
-										{sub_item}
+										<Typography gutterBottom variant="caption">{sub_item}</Typography>
 									</li>
 								))}
 								</ul>

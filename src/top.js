@@ -3,6 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card'
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MyLocationIcon from '@material-ui/icons/MyLocation';
+import PhonelinkRingIcon from '@material-ui/icons/PhonelinkRing';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+
 
 
 
@@ -64,20 +70,24 @@ export default function Top() {
 
 			<div className={classes.personal_info}>
 				<div className={classes.personal_info}>
-					<strong>Location: </strong>
-					<Typography variant="body2">Perth WA, Australia</Typography>			
+					<MyLocationIcon />
+					<Typography variant="body2" style={{ marginLeft: '5px' }}>Perth WA, Australia</Typography>			
 				</div>
 				<div className={classes.personal_info}>
-					<strong>Github:</strong>
-					<a title="Github" href="https://github.com/Chen-BBe/">github.com/Chen-BBe</a>
+					<GitHubIcon />
+					<a title="Github" style={{ marginLeft: '5px' }} href="https://github.com/Chen-BBe/">Github</a>
 				</div>
 				<div className={classes.personal_info}>
-					<strong>Mobile:</strong>
-					<a title="Mobile Phone" href="tel:0610450980608">(061) 0450980608</a>
+					<LinkedInIcon />
+					<a title="Linkedin" style={{ marginLeft: '5px' }} href="https://www.linkedin.com/in/steven-bi-786728a8/">Linkedin</a>
+				</div>				
+				<div className={classes.personal_info}>
+					<PhonelinkRingIcon />
+					<a title="Mobile Phone" style={{ marginLeft: '5px' }} href="tel:0610450980608">(061) 0450980608</a>
 				</div>
 				<div className={classes.personal_info}>
-					<strong>Email:</strong>
-					<a title="Send Email" href="mailto:steven.bb.0221@gmail.com">steven.bb.0221@gmail.com</a>
+					<MailOutlineIcon />
+					<a title="Send Email" style={{ marginLeft: '5px' }} href="mailto:steven.bb.0221@gmail.com">steven.bb.0221@gmail.com</a>
 				</div>
 			</div>
 
@@ -85,9 +95,7 @@ export default function Top() {
 
 			<div className={classes.text_content}>
 	            <Typography gutterBottom variant="body2">
-				Qualified software engineer, experiences in coding Js, Python and core Java, passionate about web app 
-				development with React/Django ecosystem, good on web based data visualization and API development. 
-				Familiar with Docker, Git dev environment as well as knowledge of deploy to AWS/GCP.
+					<p>Qualified software engineer, experiences in coding Node.js, Python, passionate about web app development with React/Vue & FastAPI/Django ecosystem, good on web based data visualization, API development and data processing. Familiar with Docker, Git and Postgres dev environment as well as knowledge of AWS/GCP.</p>
 	            </Typography>		
 			</div>
 		</Card>
