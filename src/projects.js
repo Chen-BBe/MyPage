@@ -79,22 +79,22 @@ export default function Projects() {
 	const work_list = [
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png', 
-			'title': 'Business website demo', 
-			'sub': 'Html Css Jquery & Django',
+			'title': 'Business website demo (currently offline)', 
+			'sub': 'In process of optimization',
 			'url': 'https://calm-tor-88874.herokuapp.com/', 
-			'description': ['Various of page effects', 'Responsive page design', 'Use pure Django, HTML, CSS, JS', 'Deploy on Heroku (migrate from AWS)', 'Enable emails receive from customers']},
+			'description': ['Responsive page design', 'Typical business website template']},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/crypto_stock.png', 
-			'title': 'React UI widget', 
-			'sub': 'React Socket Material-ui & Docker',
+			'title': 'Real-time data demo (currently offline)', 
+			'sub': 'In process of optimization',
 			'url': 'https://thawing-bayou-31509.herokuapp.com/', 
-			'description': ['React App', 'Websocket start/pause', 'API data manipulate']},
+			'description': ['React', 'Websocket', 'Real-time']},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/visual_stock.png', 
-			'title': 'Sample dashboard (Django)', 
-			'sub': 'Matplotlib & Django & Jquery',
-			'url': 'https://sheltered-garden-05712.herokuapp.com/', 
-			'description': ['Ajax update page', 'Output chart image base on data', 'Allow download data as pdf file', 'Calculate a stock max profits within a range date']},
+			'title': 'Sample dashboard for Data visualization', 
+			'sub': 'Data visualization & Django & Ajax',
+			'url': 'https://visual-stock.herokuapp.com/', 
+			'description': ['Data visualization tools ', 'Stream Data', 'Binary search', 'Api integration', 'Django']},
 	];
 
 	return (
