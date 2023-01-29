@@ -79,9 +79,9 @@ export default function Projects() {
 	const work_list = [
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png', 
-			'title': 'Business website demo (currently offline)', 
-			'sub': 'In process of optimization',
-			'url': 'https://calm-tor-88874.herokuapp.com/', 
+			'title': 'Business website demo', 
+			'sub': 'Django & CSS Styling',
+			'url': 'https://boot-bw.herokuapp.com/', 
 			'description': ['Responsive page design', 'Typical business website template']},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/crypto_stock.png', 
