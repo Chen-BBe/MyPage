@@ -85,10 +85,10 @@ export default function Projects() {
 			'description': ['Responsive page design', 'Typical business website template']},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/crypto_stock.png', 
-			'title': 'Real-time data demo (currently offline)', 
-			'sub': 'In process of optimization',
-			'url': 'https://thawing-bayou-31509.herokuapp.com/', 
-			'description': ['React', 'Websocket', 'Real-time']},
+			'title': 'Simulate crypto exchange demo', 
+			'sub': 'React & Crypto data & web-socket',
+			'url': 'https://visual-stock-v2.herokuapp.com/', 
+			'description': ['Dashboard', 'Websocket', 'Real-time']},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/visual_stock.png', 
 			'title': 'Sample dashboard for Data visualization', 
