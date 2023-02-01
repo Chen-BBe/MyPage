@@ -79,28 +79,28 @@ export default function Work() {
 			'url': 'https://www.pointerra.com/',
 			'title': 'Pointerra', 'role': 'Full Stack Developer', 
 			'date': 'June 2022 to Present', 
-			'description': ['SaaS applications development', 'Improving the automated software build and test platform', 'Viewer, Portal & PointServer maintain(Vue/Django/Nodejs)']
+			'description': ['Maintain platform reliability, scalability, and robustness improvements', 'Helping deployment process for Pointerra’s SaaS applications,', 'Managing and improving the automated software build and test platform for frontend system']
 		},		
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/atomorphis.jpg',
 			'url': 'https://www.atomorphis.com/',
 			'title': 'Atomorphis', 'role': 'Software Developer', 
-			'date': 'Nov 2020 to April 2022', 
-			'description': ['UI/UX implementing', 'Interactive geological map and data visualization', 'Design and help in data visualization in 2D & 3D', 'Dockerize front-end sytem']
+			'date': 'November 2020 to April 2022', 
+			'description': ['Implement interactive and map based front-end system from scratch', 'Continuously work on Gemini data visualization of mining fleet and equipment simulation in 2D & 3D.', 'API development', 'Dockerize and maintain whole front-end sytem in docker container']
 		},	
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/hotel.jpg',
 			'url': 'https://www.bunburyhotelkoombanabay.com.au/',
-			'title': 'South Pacific', 'role': 'Web Developer (contract)', 
-			'date': 'Feb 2020 to May 2020', 
-			'description': ['Restore website from the damaged backup', 'Restore online booking system', 'Web based mail marketing system']
+			'title': 'South Pacific', 'role': 'Web Developer (Contract)', 
+			'date': 'July 2020 to November 2020', 
+			'description': ['Restore website and its data from the damaged backup & online booking system', 'Excel based data analysis tool', 'Off-line email marketing system']
 		},
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/lianjia.jpg',
 			'url': 'https://sh.lianjia.com/',
 			'title': 'Lianjia', 'role': 'Software Developer (Shang Hai - China)', 
-			'date': 'Mar 2019 to Oct 2019', 
-			'description': ['Maintain current web app', 'Develop new features and design test cases']
+			'date': 'January 2019 to April 2020', 
+			'description': ['Maintain online platform and bug fix', 'End to end test', 'Work on new features and UI improvement']
 		},		
 		// {
 		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pinyi.bmp',

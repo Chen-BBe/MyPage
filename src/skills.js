@@ -50,7 +50,7 @@ export default function Skills() {
 
 			<div className={classes.text_content}>
 				<Chip className={classes.content_item} label="HTML & CSS & JS" />
-				<Chip className={classes.content_item} label="Node & Python & Java" />
+				<Chip className={classes.content_item} label="Nodejs & Python" />
 				<Chip className={classes.content_item} label="React & Vue" />
 				<Chip className={classes.content_item} label="FastApi & Django" />
 				<Chip className={classes.content_item} label="Restful API Design" />
