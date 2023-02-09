@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 		flexDirection: 'row',
 		flexWrap: 'nowrap',
 		alignItems: 'center',
-	    [theme.breakpoints.down('md')]: {
+	    [theme.breakpoints.down('lg')]: {
       		flexDirection: 'column'
 	    },
 	},

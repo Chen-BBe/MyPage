@@ -29,9 +29,9 @@ const useStyles = makeStyles((theme) => ({
 		flexDirection: 'row',
 		flexWrap: 'nowrap',
 		alignItems: 'center',
-	    [theme.breakpoints.down('md')]: {
+	    [theme.breakpoints.down('lg')]: {
       		flexDirection: 'column'
-	    },
+	    },	
 	},
 	work_content_left: {
 		margin: theme.spacing(2),
@@ -45,13 +45,13 @@ const useStyles = makeStyles((theme) => ({
 	job_title: {
 		display: 'flex',
 		minWidth: "500px",
-		marginLeft: '4vh',
+		marginLeft: '10vh',
 		flexDirection: 'column',
 		justifyContent: 'center',
 		alignContent: 'center', 
-	    [theme.breakpoints.down('md')]: {
+	    [theme.breakpoints.down('lg')]: {
       		marginLeft: '0vh',
-	    },
+	    },			
 	},
 	job_details: {
 		display: 'flex',

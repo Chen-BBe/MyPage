@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 		flexDirection: 'row',
 		flexWrap: 'nowrap',
 		alignItems: 'center',
-	    [theme.breakpoints.down('md')]: {
+	    [theme.breakpoints.down('lg')]: {
       		flexDirection: 'column'
 	    },
 	},
@@ -46,12 +46,12 @@ const useStyles = makeStyles((theme) => ({
 	job_title: {
 		display: 'flex',
 		minWidth: "500px",
-		marginLeft: '4vh',
+		marginLeft: '10vh',
 		flexDirection: 'column',
 		alignItems: 'center',
 		justifyContent: 'center',
 		alignContent: 'center', 
-	    [theme.breakpoints.down('md')]: {
+	    [theme.breakpoints.down('lg')]: {
       		marginLeft: '0vh',
 	    },
 	},
