@@ -75,32 +75,55 @@ export default function Work() {
 	
 	const work_list = [
 		{
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/ntt_data.png',
+			'url': 'https://www.nttdata.com/global/en/',
+			'title': 'Ntt Data', 'role': 'Front End Developer (Contractor)', 
+			'date': 'May 2023 to August 2023',
+			'description': [
+				'Finished all prototypes with required features and designs', 
+				'Identify and explain the gap between current Power BI system and Dash & Plotly', 
+				'Created cache architectural layer for improving heavy load and real-time data visualization'
+			]
+		},		
+		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pointerra.png',
 			'url': 'https://www.pointerra.com/',
 			'title': 'Pointerra', 'role': 'Full Stack Developer', 
-			'date': 'June 2022 to Present', 
-			'description': ['Maintain platform reliability, scalability, and robustness improvements', 'Helping deployment process for Pointerra’s SaaS applications,', 'Managing and improving the automated software build and test platform for frontend system']
+			'date': 'June 2022 to December 2022',
+			'description': [
+				'Added walk-through feature to the platform for marketing team', 
+				'Implemented a notification mechanism across different channels to support development', 
+				'Helping deployment process for Pointerra’s SaaS applications'
+			]
 		},		
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/atomorphis.jpg',
-			'url': 'https://www.atomorphis.com/',
-			'title': 'Atomorphis', 'role': 'Software Developer', 
-			'date': 'November 2020 to April 2022', 
-			'description': ['Implement interactive and map based front-end system from scratch', 'Continuously work on Gemini data visualization of mining fleet and equipment simulation in 2D & 3D.', 'API development', 'Dockerize and maintain whole front-end sytem in docker container']
+			'url': 'https://www.idoba.com/',
+			'title': 'Atomorphis (now known as Idoba)', 'role': 'Software Developer', 
+			'date': 'November 2020 to June 2022', 
+			'description': [
+				'Implemented Gemini web based simulation tool from scratch', 
+				'Exploring all possible tech and tools for supporting 2D & 3D in data visualizationa & simulation on web app', 
+				'Played a pivotal role in every step of the product lifecycle', 
+				'Helped product down to the ground and the product acquisition from Idoba'
+			]
 		},	
-		{
-			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/hotel.jpg',
-			'url': 'https://www.bunburyhotelkoombanabay.com.au/',
-			'title': 'South Pacific', 'role': 'Web Developer (Contract)', 
-			'date': 'July 2020 to November 2020', 
-			'description': ['Restore website and its data from the damaged backup & online booking system', 'Excel based data analysis tool', 'Off-line email marketing system']
-		},
+		// {
+		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/hotel.jpg',
+		// 	'url': 'https://www.bunburyhotelkoombanabay.com.au/',
+		// 	'title': 'South Pacific', 'role': 'Web Developer (Contract)', 
+		// 	'date': 'July 2020 to November 2020', 
+		// 	'description': ['Restore website and its data from the damaged backup & online booking system', 'Excel based data analysis tool', 'Off-line email marketing system']
+		// },
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/lianjia.jpg',
 			'url': 'https://sh.lianjia.com/',
 			'title': 'Lianjia', 'role': 'Software Developer (Shang Hai - China)', 
-			'date': 'January 2019 to April 2020', 
-			'description': ['Maintain online platform and bug fix', 'End to end test', 'Work on new features and UI improvement']
+			'date': 'January 2019 to September 2020', 
+			'description': [
+				'Accomplished the transition from a junior to a mid-level software developer role', 
+				'Earning rewards of both full-attendance bonus and outstanding performance'
+			]
 		},		
 		// {
 		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/pinyi.bmp',

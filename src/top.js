@@ -95,7 +95,7 @@ export default function Top() {
 
 			<div className={classes.text_content}>
 	            <Typography gutterBottom variant="body2">
-					<p>Qualified software engineer, experiences in coding Node.js, Python, passionate about web app development with React/Vue & FastAPI/Django ecosystem, good on web based data visualization, API development and data processing. Familiar with Docker, Git and Postgres dev environment as well as knowledge of AWS/GCP.</p>
+					<p>I'm a seasoned Full Stack Developer with a strong passion for crafting end-to-end solutions. I am familiar with cloud technologies and have experience working in both development and product environments.</p>
 	            </Typography>		
 			</div>
 		</Card>

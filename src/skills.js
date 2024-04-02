@@ -52,11 +52,12 @@ export default function Skills() {
 				<Chip className={classes.content_item} label="HTML & CSS & JS" />
 				<Chip className={classes.content_item} label="Nodejs & Python" />
 				<Chip className={classes.content_item} label="React & Vue" />
-				<Chip className={classes.content_item} label="FastApi & Django" />
-				<Chip className={classes.content_item} label="Restful API Design" />
-				<Chip className={classes.content_item} label="Git & Jira & Gitlab & Docker" />
-				<Chip className={classes.content_item} label="SQL" />
-				<Chip className={classes.content_item} label="DeckGL & Mapbox & WebGL" />		
+				<Chip className={classes.content_item} label="Flask & Django & FastApi" />
+				<Chip className={classes.content_item} label="DeckGL & Mapbox" />
+				<Chip className={classes.content_item} label="Restful API" />
+				<Chip className={classes.content_item} label="Sql & NoSql DB" />
+				<Chip className={classes.content_item} label="Jira & Gitlab & Azure DevOps" />
+				<Chip className={classes.content_item} label="Git & Docker & AWS % Azure" />
 			</div>
 		</Card>
 	);

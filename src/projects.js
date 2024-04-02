@@ -78,23 +78,32 @@ export default function Projects() {
 
 	const work_list = [
 		{
-			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png', 
-			'title': 'Business website demo', 
-			'sub': 'Django & CSS Styling',
-			'url': 'https://boot-bw.herokuapp.com/', 
-			'description': ['Responsive page design', 'Typical business website template']},
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/fancy_truck.jpg', 
+			'title': 'Auto driving truck in Perth CBD', 
+			'sub': 'A demo of auto driving truck on the map',
+			'url': 'https://fancy-truck-086105e58a82.herokuapp.com/', 
+			'description': ['3D version view to mimic moving object on the map', 'support geographic coordinates', 'support diffrent code(e.g. EPSG) transform', 'allow multiple moving 3D objects']
+		},		
 		{
-			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/crypto_stock.png', 
-			'title': 'Simulate crypto exchange demo', 
-			'sub': 'React & Crypto data & web-socket',
-			'url': 'https://visual-stock-v2.herokuapp.com/', 
-			'description': ['Dashboard', 'Websocket', 'Real-time']},
+			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png', 
+			'title': 'Decent website for enterprises', 
+			'sub': 'A good looking website for mid-large business',
+			'url': 'https://boot-bw.herokuapp.com/', 
+			'description': ['Responsive design for mobile devices', 'All standard features ready for business users']
+		},
+		// {
+		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/crypto_stock.png', 
+		// 	'title': 'Simulate crypto exchange demo', 
+		// 	'sub': 'React & Crypto data & web-socket',
+		// 	'url': 'https://visual-stock-v2.herokuapp.com/', 
+		// 	'description': ['Dashboard', 'Websocket', 'Real-time']
+		// },
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/visual_stock.png', 
-			'title': 'Sample dashboard for Data visualization', 
-			'sub': 'Data visualization & Django & Ajax',
+			'title': 'Stock data dashboard', 
+			'sub': 'Data visualization & Data fetching & Sync local DB and download hardcopy',
 			'url': 'https://visual-stock.herokuapp.com/', 
-			'description': ['Data visualization tools ', 'Stream Data', 'Binary search', 'Api integration', 'Django']},
+			'description': ['Stock data visualization', '3rd party service integration', 'Download data as PDF file']},
 	];
 
 	return (

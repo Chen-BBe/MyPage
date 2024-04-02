@@ -66,13 +66,13 @@ export default function Education() {
 			'role': 'Bachelor of Science, Software Engineering', 
 			'date': 'August 2014 to December 2018',
 		},
-		{
-			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/xiangtan.png', 
-			'title': 'XiangTan University', 
-			'url': 'https://www.xtu.edu.cn/',
-			'role': 'Bachelor of Arts, History', 
-			'date': 'August 2008 to December 2011', 
-		},
+		// {
+		// 	'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/xiangtan.png', 
+		// 	'title': 'XiangTan University', 
+		// 	'url': 'https://www.xtu.edu.cn/',
+		// 	'role': 'Bachelor of Arts, History', 
+		// 	'date': 'August 2008 to December 2011', 
+		// },
 	];
 
 	return (
