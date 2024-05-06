@@ -80,9 +80,10 @@ export default function Work() {
 			'title': 'Ntt Data', 'role': 'Front End Developer (Contractor)', 
 			'date': 'May 2023 to August 2023',
 			'description': [
-				'Finished all prototypes with required features and designs', 
-				'Identify and explain the gap between current Power BI system and Dash & Plotly', 
-				'Created cache architectural layer for improving heavy load and real-time data visualization'
+				'Implemented new Dash & Plotly prototypes with all features and designs as required', 
+				'Connected latest Dash & Plotly prototype with new Azure SQL endpoint',
+				'Created a caching architectural layer to enhance performance in scenarios involving heavy data loads',
+				'Identified the gap from upgrading exisiting Power BI system to customized Dash & Plotly prototype'
 			]
 		},		
 		{
@@ -91,9 +92,9 @@ export default function Work() {
 			'title': 'Pointerra', 'role': 'Full Stack Developer', 
 			'date': 'June 2022 to December 2022',
 			'description': [
-				'Added walk-through feature to the platform for marketing team', 
-				'Implemented a notification mechanism across different channels to support development', 
-				'Helping deployment process for Pointerra’s SaaS applications'
+				'Added "one button click walk-through" feature for marketing team and created on-board interactive functionalities for plateform new users', 
+				'Implemented a notification mechanism broadly across different Slack channels to assist users in different teams', 
+				'Migrated and transformed a portion of workloads to be cloud-based and assisted in the deployment process for Pointerra’s SaaS applications'
 			]
 		},		
 		{
@@ -102,10 +103,9 @@ export default function Work() {
 			'title': 'Atomorphis (now known as Idoba)', 'role': 'Software Developer', 
 			'date': 'November 2020 to June 2022', 
 			'description': [
-				'Implemented Gemini web based simulation tool from scratch', 
-				'Exploring all possible tech and tools for supporting 2D & 3D in data visualizationa & simulation on web app', 
-				'Played a pivotal role in every step of the product lifecycle', 
-				'Helped product down to the ground and the product acquisition from Idoba'
+				'Implemented the product (Gemini)',
+				`Exploring potential 2D & 3D tools and knowledge, and then contributing to the team's knowledge base via Jira Confluence`, 
+				'Played a pivotal role in every steps of the product lifecycle'
 			]
 		},	
 		// {
@@ -121,8 +121,9 @@ export default function Work() {
 			'title': 'Lianjia', 'role': 'Software Developer (Shang Hai - China)', 
 			'date': 'January 2019 to September 2020', 
 			'description': [
-				'Accomplished the transition from a junior to a mid-level software developer role', 
-				'Earning rewards of both full-attendance bonus and outstanding performance'
+				`Maintain the stability of the platform's system at all times while 3 months on-call team`, 
+				'Setting up an alarm system to trigger when the error queue exceeds a threshold in Celery',
+				'Earning rewards of both full-attendance bonus and outstanding performance in 1st year'
 			]
 		},		
 		// {
@@ -173,7 +174,14 @@ export default function Work() {
 								<ul>
 								{item.description.map((sub_item, sub_index) => (
 									<li key={sub_index} className={classes.job_details_li}>
-										<Typography gutterBottom variant="caption">{sub_item}</Typography>
+										{
+											sub_item.includes('Gemini') ?
+												<a href="https://static1.squarespace.com/static/640eab33ae82eb7bd001b933/t/653f675c3db52712ca4ee98a/1698654049840/231030-Gemini-2page-Brochure.pdf">
+													<Typography gutterBottom variant="caption">{sub_item}</Typography>
+												</a>
+											:
+												<Typography gutterBottom variant="caption">{sub_item}</Typography>
+										}
 									</li>
 								))}
 								</ul>

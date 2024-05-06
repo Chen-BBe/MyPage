@@ -57,7 +57,8 @@ export default function Skills() {
 				<Chip className={classes.content_item} label="Restful API" />
 				<Chip className={classes.content_item} label="Sql & NoSql DB" />
 				<Chip className={classes.content_item} label="Jira & Gitlab & Azure DevOps" />
-				<Chip className={classes.content_item} label="Git & Docker & AWS % Azure" />
+				<Chip className={classes.content_item} label="Git & Docker & AWS & Azure" />
+				<Chip className={classes.content_item} label="Gen AI & LangChain & RAG & ReAct (learning...)" />
 			</div>
 		</Card>
 	);

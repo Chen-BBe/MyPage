@@ -78,11 +78,18 @@ export default function Projects() {
 
 	const work_list = [
 		{
+			'img': '', 
+			'title': 'Demo (Gen AI)', 
+			'sub': '',
+			'url': '', 
+			'description': ['Coming soon ...']
+		},			
+		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/fancy_truck.jpg', 
 			'title': 'Auto driving truck in Perth CBD', 
 			'sub': 'A demo of auto driving truck on the map',
 			'url': 'https://fancy-truck-086105e58a82.herokuapp.com/', 
-			'description': ['3D version view to mimic moving object on the map', 'support geographic coordinates', 'support diffrent code(e.g. EPSG) transform', 'allow multiple moving 3D objects']
+			'description': ['Keep camera track the moving object', 'Able to support geographic coordinates and diffrent code(e.g. EPSG) transform', 'Allow multiple moving 3D objects']
 		},		
 		{
 			'img': 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png', 
@@ -103,7 +110,7 @@ export default function Projects() {
 			'title': 'Stock data dashboard', 
 			'sub': 'Data visualization & Data fetching & Sync local DB and download hardcopy',
 			'url': 'https://visual-stock.herokuapp.com/', 
-			'description': ['Stock data visualization', '3rd party service integration', 'Download data as PDF file']},
+			'description': ['Stock data visualization', '3rd party service integration', 'Save data entries as PDF file']},
 	];
 
 	return (

@@ -94,8 +94,8 @@ export default function Top() {
 			<Divider variant="middle" />
 
 			<div className={classes.text_content}>
-	            <Typography gutterBottom variant="body2">
-					<p>I'm a seasoned Full Stack Developer with a strong passion for crafting end-to-end solutions. I am familiar with cloud technologies and have experience working in both development and product environments.</p>
+	            <Typography gutterBottom variant="subtitle1">
+					<p>I'm a seasoned Full Stack Developer with a strong passion for crafting end-to-end solutions. I have a solid tech background in web app development and cloud technologies. Currently, I'm enthusiastically exploring AI-related knowledge and building practical skill sets</p>
 	            </Typography>		
 			</div>
 		</Card>
