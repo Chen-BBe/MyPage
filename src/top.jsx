@@ -88,10 +88,9 @@ export default function Top() {
               display: 'grid',
               gridTemplateColumns: {
                 xs: 'minmax(0, 1fr)',
-                sm: 'repeat(2, minmax(220px, max-content))',
-                lg: 'repeat(4, max-content)',
+                xl: 'repeat(4, max-content)',
               },
-              justifyContent: { xs: 'center', md: 'start' },
+              justifyContent: { xs: 'center', xl: 'start' },
               justifyItems: 'center',
               placeItems: 'center',
               columnGap: { xs: 2, sm: 2.5, md: 3 },
@@ -106,8 +105,9 @@ export default function Top() {
                   spacing={1}
                   sx={{
                     display: 'inline-flex',
-                    width: { xs: '100%', sm: 'auto' },
+                    width: { xs: '100%', xl: 'auto' },
                     maxWidth: '100%',
+                    justifyContent: 'center',
                     minHeight: 44,
                     px: 1.75,
                     py: 1,
@@ -142,12 +142,12 @@ export default function Top() {
                   href={item.href}
                   color="inherit"
                   underline="none"
-                  sx={{ width: { xs: '100%', sm: 'auto' }, maxWidth: '100%' }}
+                  sx={{ width: { xs: '100%', xl: 'auto' }, maxWidth: '100%' }}
                 >
                   {content}
                 </Link>
               ) : (
-                <Box key={item.label} sx={{ width: { xs: '100%', sm: 'auto' }, maxWidth: '100%' }}>
+                <Box key={item.label} sx={{ width: { xs: '100%', xl: 'auto' }, maxWidth: '100%' }}>
                   {content}
                 </Box>
               );
