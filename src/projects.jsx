@@ -22,26 +22,25 @@ const projectList = [
   },
   {
     img: 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/bootbw.png',
-    title: 'Business sample website',
+    title: 'Business website sample',
     sub: 'Live demo - version updated in 2020',
     url: 'https://boot-bw.herokuapp.com/',
     description: [
       'Django',
       'Python & JavaScript',
       'Responsive mobile design',
-      'Common features for small business users',
+      'Common features for business users',
     ],
   },
   {
     img: 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/visual_stock.png',
-    title: 'Simple CRUD dashboard',
+    title: 'Simple stock-data dashboard',
     sub: 'Live demo - version updated in 2017',
     url: 'https://visual-stock.herokuapp.com/',
     description: [
       'Django',
       'Python & JavaScript',
-      'Third-party service integration',
-      'Sample database fetch and download',
+      'Third-party service integration'
     ],
   },
 ];
