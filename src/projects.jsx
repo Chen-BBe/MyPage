@@ -8,6 +8,19 @@ import { DetailList, MediaTile, SectionCard, SectionTitle } from './section.jsx'
 
 const projectList = [
   {
+    img: 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/refs/heads/main/img/easy-cloud-cli.jpg',
+    title: 'Cloud CLI sample - Terraform AWS Service generator',
+    sub: 'Live demo - version updated in 2026',
+    url: 'https://hey-bbe-easy-cloud-0343bef7d346.herokuapp.com/',
+    description: [
+      'Browser-based terminal UI with xterm.js',
+      'FastAPI backend service',
+      'WebSocket-based real-time command interaction',
+      'Cloud resource generation concept',
+      'CLI-style developer experience'
+    ],
+  },  
+  {
     img: 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/fancy_truck.jpg',
     title: 'Map-based web app - simulated vehicle navigation',
     sub: 'Live demo - version updated in 2023',
