@@ -61,7 +61,7 @@ const projectList = [
 export default function Projects() {
   return (
     <SectionCard>
-      <SectionTitle>Projects</SectionTitle>
+      <SectionTitle>Side Projects</SectionTitle>
 
       <Stack spacing={{ xs: 2.25, md: 2.75 }}>
         {projectList.map((item) => (
