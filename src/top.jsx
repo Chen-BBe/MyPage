@@ -14,7 +14,7 @@ import { SectionCard } from './section.jsx';
 const profileImage = 'https://raw.githubusercontent.com/Chen-BBe/my-page-assets/main/img/big_head.jpg';
 
 const contactItems = [
-  { icon: <LocationOnRoundedIcon />, label: 'Perth WA, Australia', color: '#2f8f72' },
+  { icon: <LocationOnRoundedIcon />, label: 'Perth, WA, Australia', color: '#2f8f72' },
   { icon: <GitHubIcon />, label: 'GitHub', href: 'https://github.com/Chen-BBe/', color: '#172033' },
   { icon: <LinkedInIcon />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/steven-bi-786728a8/', color: '#0a66c2' },
   { icon: <EmailRoundedIcon />, label: 'steven.bb.0221@gmail.com', href: 'mailto:steven.bb.0221@gmail.com', color: '#8a4f12' },
@@ -74,7 +74,7 @@ export default function Top() {
           </Typography>
 
           <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 720, lineHeight: 1.8 }}>
-            Experienced Full Stack Developer with a strong record of delivering production web
+            Experienced full-stack developer with a strong record of delivering production web
             applications, data-driven interfaces, and cloud-connected services. I bring hands-on
             expertise across frontend engineering, backend APIs, geospatial visualization, and
             deployment workflows, with a current focus on applying AI tools and patterns to practical

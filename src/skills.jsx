@@ -5,7 +5,7 @@ import { SectionCard, SectionTitle } from './section.jsx';
 
 const skills = [
   'Frontend engineering: HTML, CSS, JavaScript, TypeScript',
-  'Backend development: Node.js, Python',
+  'Backend development: Python, Node.js',
   'Modern UI frameworks: React, Vue',
   'API platforms: Flask, Django, FastAPI',
   'Geospatial visualization: Deck.gl, Mapbox',

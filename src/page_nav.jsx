@@ -29,7 +29,7 @@ const buildDate = new Intl.DateTimeFormat('en-AU', {
   dateStyle: 'medium',
   timeStyle: 'short',
   timeZone: 'Australia/Perth',
-}).format(new Date(import.meta.env.VITE_BUILD_TIME));
+}).format(new Date(import.meta.env.VITE_BUILD_TIME || Date.now()));
 
 export default function HeadBar() {
   const [value, setValue] = React.useState(0);
@@ -45,7 +45,7 @@ export default function HeadBar() {
     setMobileOpen(false);
   };
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (_event, newValue) => {
     scrollToSection(newValue);
   };
 
